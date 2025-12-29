@@ -339,10 +339,12 @@ const styles = {
     flexDirection: 'column',
     alignItems: 'center',
     justifyContent: 'center',
-    // padding: '24px',
+    padding: '0px 24px',
     position: 'relative',
     overflow: 'hidden',
     fontFamily: 'system-ui, -apple-system, sans-serif',
+    // touchAction: 'none',
+    // overscrollBehavior: 'none'
   },
 
   // Baby blue checkered background
@@ -530,6 +532,8 @@ const styles = {
     flexDirection: 'column',
     border: '1px solid rgba(0,0,0,0.06)',
     overflow: 'hidden',
+    touchAction: 'none',
+    userSelect: 'none'
   },
 
   backContent: {
@@ -537,7 +541,7 @@ const styles = {
     width: '100%',
     padding: '24px',
     paddingBottom: '44px',
-    overflowY: 'auto',
+    overflowY: 'hidden',
     overflowX: 'hidden',
     display: 'flex',
     flexDirection: 'column',
@@ -545,6 +549,8 @@ const styles = {
     justifyContent: 'center',
     textAlign: 'center',
     boxSizing: 'border-box',
+    touchAction: 'none',
+    userSelect: 'none'
   },
 
   backNumber: {

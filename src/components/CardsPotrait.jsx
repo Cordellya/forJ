@@ -333,13 +333,13 @@ export default function TangerineCards() {
 
 const styles = {
   container: {
-    minHeight: '100vh',
+    height: '100vh',
     width: '100wv',
     display: 'flex',
     flexDirection: 'column',
     alignItems: 'center',
     justifyContent: 'center',
-    padding: '24px',
+    // padding: '24px',
     position: 'relative',
     overflow: 'hidden',
     fontFamily: 'system-ui, -apple-system, sans-serif',
